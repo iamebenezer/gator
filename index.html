@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLDEN GATOR</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<style>
+    html, body {
+  overflow-x: hidden;
+    margin: 0;
+     padding: 0;
+     scroll-behavior: smooth;
+  }
+  .background {
+  position
+  :
+  
+   absolute
+  ;
+    
+  display
+  :
+   block
+  ;
+    
+  top
+  : 0;
+    
+  left
+  : 0;
+    
+  z-index
+  : 0;
+  }
+   
+    @font-face {
+        font-family: new;
+        src: url(/DragonForcE.ttf);
+    }
+    @font-face {
+        font-family: neww;
+        src: url(/vinque\ rg.otf);
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        font-family: new;
+    }
+    a, p{
+        letter-spacing: 2px;
+    }
+     a, p{
+        font-family: neww;
+    }
+    @font-face {
+        font-family:newd ;
+        src: url(/Montserrat-Bold.ttf);
+    }
+    span{
+        font-family: newd;
+    }
+.hero-section{
+    background-image: url(/bg-1.jpg);
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-size: cover;
+}
+.video-section{
+    background-image: url(/bg-4.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: fit-content;
+}
+.how-to-use{
+    /* background-image: linear-gradient(to left bottom, #ffa600, #b87d0d, #785512, #402f10, #0d0903);
+     */
+     background-image: url(/bg-4.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: fit-content;
+}
+.footer-section{
+    background-image: url(/bg-1.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}   
+</style>
+<script>
+    window.
+onload
+= function() {
+  Particles.
+init
+({
+    selector: 
+'.background'
+  });
+};
+
+</script>
+<body>
+    
+<canvas class=
+"background"
+></canvas>
+  
+<script src="/dist/particles.min.js"></script>
+    <!-- NAV & HEAD -->
+    <section class="hero-section">
+        <nav class="flex justify-between items-center p-12">
+            <div data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+           >
+                <img src="/images/logo.png" class="object-contain w-12" alt="">
+            </div>
+            <div class="hidden md:flex"  data-aos="fade-down"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000">
+              <ul class="text-white flex space-x-5">
+                <li><a href="">HOME</a></li>
+                <li><a href="#abt">About</a></li>
+                <li><a href="#bot">GOLDEN GATOR BOT</a></li>
+                <li><a href="#token">TOKENOMICS</a></li>
+                <li><a href="#road">ROADMAP</a></li>
+              </ul>
+            </div>
+            <div  data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000">
+               <a href="https://t.me/GOLDEN GATORErc" class="border-dotted border-4 border-[#fba80d] px-4 py-4 text-white animate__animated animate__slower	3s animate__flash animate__infinite	infinite"
+              
+               >Join</a>
+              </div>
+        </nav>
+
+            <div class="grid grid-cols-1 place-items-center p-2" 
+            data-aos="fade-up"
+            data-aos-duration="3000">
+                <img src="/images/logo.png" class="object-contain w-96 animate__animated animate__slow	1s animate__pulse animate__infinite	infinite" alt="">
+                    <h1 class="text-[40px] text-white">Welcome to <br> Golden Gator</h1>
+                <p class="text-white text-sm font-bold text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem quasi quam.
+                </p>
+                <div class="flex flex-row space-x-7 my-5">
+                    <a href="https://t.me/GOLDEN GATORErc" class="bg-[#fba80d] text-black px-4 py-4 rounded-xl animate__animated animate__slower	3s animate__pulse animate__infinite	infinite">Buy $GGTR</a>
+                    <a href="" class="border-solid border-2 border-[#fba80d] px-4 py-4 text-white animate__animated animate__slower	3s animate__pulse animate__infinite	infinite">Twitter</a>
+               
+                </div>
+
+            </div>
+
+
+    </section>
+    <!-- Video -->
+    <!-- <section class="video-section flex flex-col justify-center items-center p-8" 
+  id="bot">
+  
+        <video   data-aos="fade-up"
+        data-aos-duration="500" src="/GOLDEN GATOR how to use.mp4" class="h-96 w-80 md:h-3/5 md:w-3/5 rounded-xl animate__animated animate__slower	3s animate__heartBeat " controls autoplay></video>
+        <a href="https://t.me/DeveloperKit_Bot" class="bg-black my-4 border-solid border-2 border-[#fba80d] px-8 py-4 
+        text-white animate__animated animate__slower	3s animate__pulse animate__infinite	infinite rounded-xl">Launch Bot</a>
+               
+    </section> -->
+    <!-- About -->
+    <section class="hero-section flex flex-col justify-center items-center  py-6" id="abt">
+        
+       
+            <div class="grid md:grid-cols-2 grid-cols-1  place-items-center gap-0 md:mx-60">
+            <div 
+            data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                <img src="/images/phone-mockup-devbot.png" class="object-fit w-96 rounded-2xl" alt="">
+            </div>
+            <div 
+            data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="bg-[#fba80d] h-fit w-[420px] md:h-80 md:w-fit  rounded-lg" style=" background-image: url(/bg-4.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     height: fit-content;">
+      <h1 class="text-center text-black text-[50px] animate__animated animate__slow	1s animate__pulse animate__infinite	infinite" data-aos="fade-up"
+      data-aos-duration="1000">ABOUT</h1>
+                <p class="p-6 text-center md:text-left">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fuga accusantium eius.
+                </p>
+                <!-- <img src="/bg-4.jpg" class="object-fit relative right-20" alt=""> -->
+            </div>
+             
+            </div>  
+
+
+    </section>
+<!-- Features -->
+    <!-- <section class="how-to-use flex flex-col justify-center items-center py-6" id="token">
+        <h1 class="text-center text-black text-[50px] animate__animated animate__slow	1s animate__pulse animate__infinite	infinite" data-aos="fade-up"
+        data-aos-duration="1000">FEATURES</h1>
+        <p class="text-center p-6">
+            Holders of $GOLDEN GATOR will be able to stake their tokens and receive
+             ethereum directly to their wallets as a revenue share from all proceeds 
+             generated from the business activities of GOLDEN GATOR. The more utilization of our ecosystem - the more each holder 
+            can earn in ethereum distributions from the revenue generated.
+        </p>  
+     
+</section> -->
+
+    <!-- How to Use -->
+    <!-- <section class="hero-section flex justify-center items-center flex-col py-6">
+        <h1 class="text-white text-[50px] animate__animated animate__slow	1s animate__pulse animate__infinite	infinite"  data-aos="fade-up"
+        data-aos-duration="500" >HOW TO USE</h1>
+       
+        <div data-aos="fade-up"
+        data-aos-duration="1000" class="grid md:grid-cols-5 grid-cols-1 place-items-center px-4 gap-5">
+         
+        <div class="flex flex-col items-center bg-black h-64 w-fit  rounded-2xl floating p-4">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-2xl l" style="letter-spacing: 3px;">Step <span>1</span></h3>
+            <p class="text-white text-center" style="letter-spacing: 2px;">Press start and then select the create contract option from the menu that pops up</p>
+        </div>
+   
+        <div class="flex flex-col items-center bg-black h-64 w-fit  rounded-2xl floating p-4">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-2xl l" style="letter-spacing: 3px;">Step <span>2</span></h3>
+            <p class="text-white text-center" style="letter-spacing: 2px;">
+                Select the blockchain the contract is to be made for and the programming language to be used to write the smart contract
+            </p>
+        </div>
+ 
+        <div class="floating flex flex-col items-center bg-black h-64 w-fit p-4 floating rounded-2xl">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-2xl l" style="letter-spacing: 3px;">Step <span>3</span></h3>
+            <p  class="text-white text-center" style="letter-spacing: 2px;">
+                Specify the other details such as dev wallets, marketing wallets, airdrop wallets etc
+            </p>
+        </div>
+
+        <div class="floating flex flex-col items-center bg-black h-64 w-fit p-4 floating rounded-2xl">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-2xl l" style="letter-spacing: 3px;">Step <span>4</span></h3>
+            <p  class="text-white text-center" style="letter-spacing: 2px;">
+                Go through your selections and submit when you're okay with it
+            </p>
+        </div>
+       
+        <div class="floating flex flex-col items-center bg-black h-64 w-fit p-4 floating rounded-2xl">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-2xl l" style="letter-spacing: 3px;">Step <span>5</span></h3>
+            <p  class="text-white text-center" style="letter-spacing: 2px;">
+                 Open the generated text file for the smart contract code
+            </p>
+        </div>
+
+       </div>
+
+</section> -->
+    <!-- Tokenomics -->
+<section class="how-to-use flex flex-col justify-center items-center py-6" id="token">
+        <h1 class="text-center text-black text-[50px] animate__animated animate__slow	1s animate__pulse animate__infinite	infinite" data-aos="fade-up"
+        data-aos-duration="1000">TOKENOMICS</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 p-8 " data-aos="fade-up"
+            data-aos-duration="1000">
+                <div class="flex flex-col text-3xl ">
+                <p class="border-b-4 border-[#ffff] text-black">Token Name</p>
+                <p class="text-black">GOLDEN GATOR</p>
+                <br>
+                    <p class="border-b-4 border-[#ffff] text-black">Sybmol</p>
+                <p class="text-black">$GGTR</p>
+                <br>
+                <p class="border-b-4 border-[#ffff] text-black">Supply</p>
+            <p class="text-black"><span>10M</span></p>
+            <br>
+            <!-- <p class="border-b-4 border-[#ffff] text-black">Max Transaction</p>
+        <p class="text-black"><span>2%</span></p>
+         -->
+            </div>
+            <div class="flex flex-col text-3xl text-center">
+                <!-- <p class="border-b-4 border-[#fba80d] text-black">Supply</p>
+                <p class="text-black"><span>10,000,000</span>M</p>
+                <br> -->
+                <!-- <p class="border-b-4 border-[#ffff] text-black">Initial LP</p>
+                <p class="text-black"><span>1</span>ETH</p>
+           
+            -->
+           
+            </div>
+            <h1  class="text-center text-black text-2xl">CA: TBA</h1>
+
+</section>
+
+
+     <!-- Roadmap -->
+     <!-- <section class="hero-section flex justify-center items-center flex-col py-6" 
+    >
+        <h1 class="text-[50px] text-white animate__animated animate__slow	1s animate__pulse animate__infinite	infinite"
+        data-aos="fade-up"
+data-aos-duration="1000"
+        >ROADMAP</h1>
+        <div class="flex justify-center items-center flex-col text-center text-white p-6">
+
+            <p>
+          
+GOLDEN GATOR is a groundbreaking suite of utilities for EVM compatible chains. GOLDEN GATOR simplifies project creation by allowing users of the platform to seamlessly create everything they need to make and deploy tokens on any EVM compatible chain.
+            </p>
+            <p>
+                Initially launching with our Smart Contract Creation Bot, further utilities are in development and preparing to be rolled out in the near future. Read below to see our future plans for the project development and rollout!
+            </p>
+    
+        </div>
+              <style>
+        .floating { 
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+
+       </style>
+        <div class="grid md:grid-cols-4  grid-cols-1 place-items-center gap-5" 
+        data-aos="fade-up"
+data-aos-duration="1000">
+           
+        <div class="floating flex flex-col items-center bg-black h-fit w-80 p-4 floating rounded-2xl">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white text-3xl">PHASE <span>1</span></h3>
+            <p class="text-white text-center"> Smart Contract Creation and Editing<br>
+                Develop smart contract codes and conduct security audits.<br> Integrate user interfaces for seamless interaction.</p>
+        </div>
+   
+        <div class="floating flex flex-col items-center bg-black h-fit w-80 p-4 floating rounded-2xl">
+            <img src="/images/logo.png" class="w-12 py-2" alt="">
+            <h3 class="text-white  text-3xl">PHASE <span>2</span></h3>
+            <p class="text-white text-center">
+                AI Logo Creation and Deployment Automation
+AI-driven logo generation for unique branding.<br>
+ Automate project deployment processes.<br>
+  Implement standard crypto roadmap features.
+            </p>
+        </div>
+
+    <div class="floating flex flex-col items-center bg-black h-fit w-80 p-4 floating rounded-2xl">
+        <img src="/images/logo.png" class="w-12 py-2" alt="">
+        <h3 class="text-white  text-3xl">PHASE <span>3</span></h3>
+        <p class="text-white text-center">
+            Apply for CMC, CG, CEX listings.
+            <br>
+         
+Develop a detailed whitepaper. <br>
+Assemble core team: developers, marketers, community managers
+        </p>
+    </div>
+ 
+    <div class="floating flex flex-col items-center bg-black h-fit w-80 p-4 floating rounded-2xl">
+        <img src="/images/logo.png" class="w-12 py-2" alt="">
+        <h3 class="text-white  text-3xl">PHASE <span>4</span></h3>
+        <p class="text-white text-center">
+           Certified Project Showcase and Smart Contract Analysis<br>
+           Certify and showcase projects meeting quality standards. <br>
+           Analyze smart contracts for transparency and security.<br>
+           Foster community engagement and feedback mechanisms.
+        </p>
+    </div>
+       </div>
+
+</section> -->
+
+<!-- Footer -->
+    <footer class="flex justify-between flex-col md:flex-row items-center footer-section px-12 py-4">
+        <div class="flex justify-between flex-col md:flex-row items-center space-x-5">
+            <img src="/images/logo.png" class="w-12" alt="">
+            <div class="text-3xl">
+             <a href="https://x.com/GOLDEN GATOR_erc">
+                <i class="bi bi-twitter-x  text-[#fba80d]"></i>
+            </a>
+            <a href="https://t.me/GOLDEN GATORErc">
+                <i class="bi bi-telegram text-[#fba80d]"></i>
+            </a>
+        </div>
+        </div>
+        <div class="flex justify-between flex-row items-center space-x-5 text-3xl">
+           
+            <p class="text-white text-center text-sm"> All right reserved GOLDEN GATOR <span>2024</span></p>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      
+    <script>
+        window.
+onload
+= function() {
+  Particles.
+init
+({
+    selector: 
+'.background'
+  });
+};
+
+    </script>
+
+   <script src="/dist/particles.js"></script>
+   <script src="/dist/particles.min.js"></script>
+   <script src="/src/particles.js"></script>
+</body>
+</html>
